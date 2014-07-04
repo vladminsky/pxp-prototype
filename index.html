@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<!-- http://bootswatch.com/spacelab/ -->
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Planet Express: карточка путешественника</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <!--<script src="../bower_components/html5shiv/dist/html5shiv.js"></script>-->
+    <!--<script src="../bower_components/respond/dest/respond.min.js"></script>-->
+    <![endif]-->
+
+    <link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
+</head>
+<body style="background-image: url(http://www.naikom.ru/img/blog/postpics/twxt01/12.jpg)">
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="http://pxp.by/" class="navbar-brand">
+                Planet Express: Карточка путешественника
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+<div class="page-header" id="banner" style="display: none">
+    <div class="row">
+        <div class="col-lg-8 col-md-7 col-sm-6">
+            <h1>Карточка путешественника</h1>
+
+            <p class="lead">Silvery and sleek</p>
+        </div>
+        <div class="col-lg-4 col-md-5 col-sm-6">
+        </div>
+    </div>
+</div>
+
+<!-- Forms
+================================================== -->
+<div class="bs-docs-section">
+<div class="row">
+    <div class="col-lg-12">
+        <div class="page-header"></div>
+    </div>
+</div>
+
+<div class="row">
+<div class="col-lg-12">
+    <div class="bs-component">
+        <div class="panel panel-default">
+            <div class="panel-body form-horizontal" style="background-color: cadetblue;">
+
+                <!--<form class="form-horizontal">-->
+                <!--<fieldset>-->
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <div class="col-lg-12">
+                                <input type="text" class="form-control" id="inputFio" placeholder="ФИО">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-12">
+                                <input type="text" class="form-control" id="inputAddress" placeholder="Адрес">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-12">
+                                <input type="text" class="form-control" id="inputPhone" placeholder="Телефон">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-12">
+                                <input type="text" class="form-control" id="inputEmail" placeholder="E-mail">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <div class="col-lg-12">
+                                <textarea class="form-control"
+                                          style="height:197px;"
+                                          rows="6"
+                                          placeholder="Комментарий"
+                                          id="textArea"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body form-horizontal" style="background-color: gainsboro">
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <label for="inputCount" class="col-lg-2 control-label">Количество туристов</label>
+
+                            <div class="col-lg-1">
+                                <select id="inputCount" class="form-control">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <table class="table table-striped table-hover ">
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <select class="form-control" style="width:77px">
+                                        <option>Mr</option>
+                                        <option>Mrs</option>
+                                        <option>Chl</option>
+                                        <option>Inf</option>
+                                    </select>
+                                </td>
+                                <td style="width:35%">
+                                    <input type="text" class="form-control" placeholder="Фамилия Имя"/>
+                                </td>
+                                <td>
+                                    <input type="text"
+                                           class="form-control"
+                                           style="width:102px;"
+                                           placeholder="МР1122333"/>
+                                </td>
+                                <td>
+                                    <input type="text"
+                                           class="form-control"
+                                           style="width:102px;"
+                                           placeholder="12/08/1983"/>
+                                </td>
+                                <td>
+                                    <input type="text"
+                                           class="form-control"
+                                           style="width:42px;"
+                                           placeholder="30"/>
+                                </td>
+                                <td>
+                                    <input type="text"
+                                           class="form-control"
+                                           style="width:102px;"
+                                           placeholder="12/08/2028"/>
+                                </td>
+                                <td style="width:35%">
+                                    <input type="text"
+                                           class="form-control"
+                                           placeholder="Контакты"/>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <select class="form-control" style="width:77px">
+                                        <option>Mr</option>
+                                        <option>Mrs</option>
+                                        <option>Chl</option>
+                                        <option>Inf</option>
+                                    </select>
+                                </td>
+                                <td style="width:35%">
+                                    <input type="text" class="form-control" placeholder="Фамилия Имя"/>
+                                </td>
+                                <td>
+                                    <input type="text"
+                                           class="form-control"
+                                           style="width:102px;"
+                                           placeholder="№ PASS"/>
+                                </td>
+                                <td>
+                                    <input type="text"
+                                           class="form-control"
+                                           style="width:102px;"
+                                           placeholder="Дата рожд."/>
+                                </td>
+                                <td>
+                                    <input type="text"
+                                           class="form-control"
+                                           style="width:42px;"
+                                           placeholder="30"/>
+                                </td>
+                                <td>
+                                    <input type="text"
+                                           class="form-control"
+                                           style="width:102px;"
+                                           placeholder="Срок PASS"/>
+                                </td>
+                                <td style="width:35%">
+                                    <input type="text"
+                                           class="form-control"
+                                           placeholder="Контакты"/>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body form-horizontal" style="background-color: yellowgreen">
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <div class="col-lg-4">
+                                <select class="form-control">
+                                    <option>-- Услуга --</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <div class="col-lg-2">
+                                <input class="form-control" type="text" placeholder="Город отправления">
+                            </div>
+
+                            <div class="col-lg-2">
+                                <input class="form-control" type="text" placeholder="Страна">
+                            </div>
+
+                            <div class="col-lg-2">
+                                <input class="form-control" type="text" placeholder="Регион / Курорт">
+                            </div>
+
+                            <div class="col-lg-2">
+                                <input class="form-control" type="text" placeholder="Сроки тура с:">
+                            </div>
+
+                            <div class="col-lg-2">
+                                <input class="form-control" type="text" placeholder="по:">
+                            </div>
+
+                            <div class="col-lg-2">
+                                <label class="control-label">X ночей</label>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <div class="col-lg-3">
+                                <input class="form-control" type="text" placeholder="Отель">
+                            </div>
+
+                            <div class="col-lg-1">
+                                <select class="form-control">
+                                    <option>Звёзд</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+
+                            <div class="col-lg-2">
+                                <select class="form-control">
+                                    <option>Размещение</option>
+                                </select>
+                            </div>
+
+                            <div class="col-lg-2">
+                                <select class="form-control">
+                                    <option>Питание</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <div class="col-lg-6">
+                                <input class="form-control" type="text" placeholder="Вылет">
+                            </div>
+
+                            <div class="col-lg-6">
+                                <input class="form-control" type="text" placeholder="Обратный вылет">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="form-group">
+
+                            <div class="col-lg-4">
+                                <select class="form-control">
+                                    <option>-- Оператор --</option>
+                                </select>
+                            </div>
+
+                            <div class="col-lg-2">
+                                <input class="form-control" type="text" placeholder="№ заявки">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="form-group">
+
+                            <div class="col-lg-3">
+                                <input class="form-control" type="text" placeholder="Стоимость тура с %">
+                            </div>
+
+                            <div class="col-lg-1">
+                                <select class="form-control">
+                                    <option>$</option>
+                                    <option>euro</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="form-group">
+
+                            <div class="col-lg-3">
+                                <input class="form-control" type="text" placeholder="Предоплата">
+                            </div>
+
+                            <div class="col-lg-1">
+                                <select class="form-control">
+                                    <option>$</option>
+                                    <option>euro</option>
+                                </select>
+                            </div>
+
+                            <div class="col-lg-3">19 388 500 BYR / 20.05.2014 / 13570</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="form-group">
+
+                            <div class="col-lg-3">
+                                <input class="form-control" type="text" placeholder="Доплата">
+                            </div>
+
+                            <div class="col-lg-1">
+                                <select class="form-control">
+                                    <option>$</option>
+                                    <option>euro</option>
+                                </select>
+                            </div>
+
+                            <div class="col-lg-3">19 388 500 BYR / 20.05.2014 / 13570</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body form-horizontal" style="background-color: darkkhaki">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <div class="col-lg-2">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox"> Визы
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox"> Трансфер
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox"> Страховки
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-lg-2">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox"> Подарок
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <input type="text" class="form-control" placeholder="Подарок">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="bs-component">
+                            <ul class="nav nav-tabs" style="margin-bottom: 15px;">
+                                <li class="active"><a href="#" data-toggle="tab">Визы</a></li>
+                                <li><a href="#" data-toggle="tab">Трансфер</a></li>
+                                <li><a href="#" data-toggle="tab">Страховки</a></li>
+                            </ul>
+                            <div id="myTabContent" class="tab-content">
+                                <div class="tab-pane fade active in" id="visa">
+                                    <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown
+                                        aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan
+                                        helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh
+                                        mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan
+                                        aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+                                </div>
+                                <div class="tab-pane fade" id="transfer">
+                                    <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.
+                                        Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan
+                                        four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft
+                                        beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda
+                                        labore aesthetic magna delectus mollit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+</div>
+</body>
+</html>
